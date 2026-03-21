@@ -571,7 +571,7 @@ function ProjectCard({ icon, title, description, tech, accent, projectLink }) {
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("Home");
   const [scrolled, setScrolled] = useState(false);
-  const [themeMode, setThemeMode] = useState("light");
+  const [themeMode, setThemeMode] = useState("dark");
   const profileImageSrc = fallbackAvatar;
   const name = "Dishant Talwekar";
   const year = new Date().getFullYear();
