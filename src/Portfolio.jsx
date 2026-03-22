@@ -50,6 +50,7 @@ const projects = [
     description:
       "QR-based café ordering system where customers scan a table QR code, place orders digitally, and staff manage live order status efficiently.",
     tech: ["React", "Node.js", "MongoDB"],
+    projectLink: "https://qr-cafe-1.onrender.com/table/1",
     accent: "#a78bfa",
   },
   {
