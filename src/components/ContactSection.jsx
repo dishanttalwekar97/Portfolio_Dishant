@@ -3,7 +3,7 @@ import SpotlightCard from "./SpotlightCard";
 
 export default function ContactSection({ onOpenContact }) {
   const [copied, setCopied] = useState(false);
-  const email = "dishanttalwekar97@gmail.com";
+  const email = "dishanttalwekar@gmail.com";
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(email);
