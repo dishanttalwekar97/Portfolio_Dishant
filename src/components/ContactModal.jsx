@@ -9,7 +9,7 @@ export default function ContactModal({ isOpen, onClose }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Pre-fill a mailto trigger or simulated send
-    const mailtoUrl = `mailto:dishanttalwekar97@gmail.com?subject=Portfolio%20Message%20from%20${encodeURIComponent(
+    const mailtoUrl = `mailto:dishanttalwekar@gmail.com?subject=Portfolio%20Message%20from%20${encodeURIComponent(
       formData.name
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`

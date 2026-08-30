@@ -95,7 +95,7 @@ export default function InteractiveTerminal({ onNavigate, onOpenContact }) {
       case "email":
         outputLines = [
           { type: "accent", text: "TRANSMISSION CHANNELS:" },
-          { type: "text", text: "• Direct Email: dishanttalwekar97@gmail.com" },
+          { type: "text", text: "• Direct Email: dishanttalwekar@gmail.com" },
           { type: "text", text: "• Open to: Full-time roles, software engineering internships, & freelance projects." },
           { type: "success", text: "Opening direct contact modal sequence..." },
         ];
