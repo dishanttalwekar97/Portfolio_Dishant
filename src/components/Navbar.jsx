@@ -53,7 +53,10 @@ export default function Navbar({
                     onClick={() => onNavigate(item.id)}
                     aria-current={isActive ? "page" : undefined}
                   >
-                    {item.label}
+                    <span>{item.label}</span>
+                    {item.is3D && (
+                      <span className="nav-3d-badge">3D</span>
+                    )}
                   </button>
                 </li>
               );

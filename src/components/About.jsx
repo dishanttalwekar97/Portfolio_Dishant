@@ -3,17 +3,6 @@ import heroAvatar from "../assets/hero.png";
 import SpotlightCard from "./SpotlightCard";
 
 export default function About() {
-  const competencies = [
-    "Full-Stack Web Development",
-    "Data Structures & Algorithms",
-    "RESTful API Architecture",
-    "Modern React Ecosystem",
-    "Scalable Backend Systems",
-    "UI/UX & Accessibility",
-    "Agile & Remote-First",
-    "Performance Optimization",
-  ];
-
   return (
     <section id="about" className="cinematic-section">
       <div className="main-container">
@@ -97,20 +86,6 @@ export default function About() {
                 </div>
               </SpotlightCard>
             </div>
-
-            {/* Core Competencies Tags */}
-            <SpotlightCard className="reveal-on-scroll reveal-delay-3" style={{ padding: "20px 24px" }}>
-              <div style={{ marginBottom: "10px", fontSize: "0.82rem", fontFamily: "var(--font-mono)", color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.06em" }}>
-                Core Competencies &amp; Mindset
-              </div>
-              <div className="about-tags-row">
-                {competencies.map((item, idx) => (
-                  <span key={idx} className="skill-tag-pill">
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </SpotlightCard>
           </div>
         </div>
       </div>
