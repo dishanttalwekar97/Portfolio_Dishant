@@ -175,7 +175,8 @@ export default function Portfolio() {
         <span>[{activeSection.toUpperCase()}]</span>
       </div>
 
-      {/* Cinematic Background, Constellations & Camera HUD */}
+
+      {/* Cinematic Atmosphere Background & Camera HUD (No 3D component) */}
       <CinematicBackground />
 
       {/* Floating Navbar */}
